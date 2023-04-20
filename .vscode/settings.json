@@ -1,0 +1,81 @@
+{
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "files.associations": {
+    ".css": "tailwindcss"
+  },
+  "haskell.manageHLS": "GHCup",
+  "editor.minimap.enabled": false,
+  "typescript.reportStyleChecksAsWarnings": true,
+  "[css]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "[vue]": {
+    "editor.formatOnSave": false
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "eslint.format.enable": true,
+  "eslint.packageManager": "pnpm",
+  "css.lint.unknownAtRules": "ignore",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "window.zoomLevel": -1,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vim.useCtrlKeys": true,
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-d>": true,
+    "<S-A-Up>": false,
+    "<S-A-Down>": false
+  },
+  "window.autoDetectColorScheme": true,
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["vspacecode.space"]
+    },
+    {
+      "before": [","],
+      "commands": [
+        "vspacecode.space",
+        {
+          "command": "whichkey.triggerKey",
+          "args": "m"
+        }
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["vspacecode.space"]
+    },
+    {
+      "before": [","],
+      "commands": [
+        "vspacecode.space",
+        {
+          "command": "whichkey.triggerKey",
+          "args": "m"
+        }
+      ]
+    }
+  ],
+  "vspacecode.bindingOverrides": [
+    {
+      "keys": "s.h.d",
+      "name": "Default Ctrl-D",
+      "type": "command",
+      "command": "editor.action.addSelectionToNextFindMatch",
+      "when": "editorFocus"
+    }
+  ]
+}
